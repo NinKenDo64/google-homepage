@@ -7,9 +7,16 @@ header {
     margin-right: 1em;
 }
 
+header button {
+    color: grey;
+    border: none;
+    background: none;
+}
+
 header .sign-in {
     background-color: rgb(66, 133, 244); color: rgb(255, 255, 255);
     padding: 0.6em 1em;
+    font-weight: bold;
 }
 
 #center input, #center img {
