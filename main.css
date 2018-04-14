@@ -19,16 +19,14 @@ header .sign-in {
     font-weight: bold;
 }
 
-#center * {
+#center img, #center input[type=search] {
     display: block; margin-left: auto; margin-right: auto;
-}
-
-#center img {
     margin-bottom: 3em;
 }
 
-#center input {
+#center input[type=search] {
     width: 100%;
     max-width: 50%;
     padding: 1em;
+    
 }
