@@ -22,10 +22,12 @@ header .sign-in {
 #center img, #center input[type=search] {
     display: block; margin-left: auto; margin-right: auto;
     margin-bottom: 3em;
-}
-
-#center input[type=search] {
     width: 100%;
     max-width: 50%;
     padding: 1em;
 }
+
+#center img {
+    max-width: 272px;
+}
+
