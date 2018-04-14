@@ -33,6 +33,9 @@ header .sign-in {
 
 #center input[type=submit] {
     display: inline;
-    padding:1em;
+}
+
+#search-buttons {
+    width: 40%;
 }
 
