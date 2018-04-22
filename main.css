@@ -39,3 +39,8 @@ header .sign-in {
     width: 40%;
 }
 
+#search-buttons input {
+    border: none;
+    color: rgb(75, 75, 75);
+}
+
