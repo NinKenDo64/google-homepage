@@ -18,7 +18,7 @@ header button {
 }
 
 header .sign-in {
-    background-color: rgb(66, 133, 244); color: rgb(255, 255, 255);
+    background: rgb(66, 133, 244); color: rgb(255, 255, 255);
     padding: 0.6em 1em;
     font-weight: bold;
 }
