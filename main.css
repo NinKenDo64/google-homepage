@@ -58,5 +58,9 @@ header .sign-in {
 
 footer {
     background: rgb(242, 242, 242);
-    line-height: 3em;
+    line-height: 1.5em;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(228, 228, 228);
 }
