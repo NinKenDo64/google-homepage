@@ -76,10 +76,6 @@ footer div {
     padding: 0.8em 2em;
 }
 
-#lowerfooter p {
-    font-size: 0.84em;
-}
-
 .box {
     width: 0.4em;
     height: 0.4em;
@@ -114,4 +110,24 @@ footer div {
     position: relative;
     display: inline-block;
     margin: 1em;
+}
+
+#footer-right {
+    float: right;
+}
+
+#footer-left p {
+    margin-right: 2em;
+}
+
+#footer-right p {
+    margin-left: 2em;
+}
+
+footer p {
+    display: inline-block;
+}
+
+#lowerfooter p {
+    font-size: 0.84em;
 }
