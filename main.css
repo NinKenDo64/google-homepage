@@ -64,6 +64,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: rgba(0,0,0,.52);
+    font-family: arial, sans-serif;
 }
 
 footer div {
@@ -71,8 +73,11 @@ footer div {
     border-bottom: solid;
     border-width: 1px;
     border-color: rgb(228, 228, 228);
-    padding: 0.8em;
-    padding-left: 2em;
+    padding: 0.8em 2em;
+}
+
+#lowerfooter p {
+    font-size: 0.84em;
 }
 
 .box {
