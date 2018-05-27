@@ -59,11 +59,50 @@ header .sign-in {
 footer {
     background: rgb(242, 242, 242);
     line-height: 1.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
     border-top: solid;
     border-bottom: solid;
     border-width: 1px;
     border-color: rgb(228, 228, 228);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+.box {
+    width: 0.4em;
+    height: 0.4em;
+    background-color: grey;
+    margin: 0.2em;
+    position: absolute;
+    display: inline;
+    bottom: -0.44em;
+}
+
+.left {
+    right: 1.2em;
+}
+
+.central {
+    right: 0.6em;
+}
+
+.right {
+    right: 0em;
+}
+
+.top {
+    bottom: 0.64em;
+}
+
+.middle {
+    bottom: 0.1em;
+}
+    
+#apps {
+    position: relative;
+    display: inline-block;
+    margin: 1em;
 }
