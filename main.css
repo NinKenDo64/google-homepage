@@ -42,6 +42,12 @@ header .sign-in {
     display: inline;
 }
 
+#center input[type=search] {
+    background-color: white;
+    border-width: 1px;
+    outline: medium invert black;
+}
+
 #search-buttons {
     width: 40%;
     padding-left: 5%;
