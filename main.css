@@ -116,18 +116,23 @@ footer div {
     float: right;
 }
 
-#footer-left p {
+#footer-left a {
     margin-right: 2em;
 }
 
-#footer-right p {
+#footer-right a {
     margin-left: 2em;
 }
 
-footer p {
+footer a {
     display: inline-block;
 }
 
-#lowerfooter p {
+#lowerfooter a {
     font-size: 0.84em;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
