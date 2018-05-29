@@ -50,19 +50,21 @@ header .sign-in {
 
 #search-buttons {
     width: 40%;
-    padding-left: 5%;
+    margin-left: auto;
+    position: relative;
 }
 
 #search-buttons input {
     border: none;
     color: rgb(117, 117, 117);
-    width: 45%;
     margin: 1%;
     min-width: 10em;
-    max-width: 45%;
+    max-width: 12em;
     font-weight: bold;
     background: rgb(242, 242, 242);
+    display: inline-block;
 }
+
 
 footer {
     background: rgb(242, 242, 242);
@@ -83,8 +85,8 @@ footer div {
 }
 
 .box {
-    width: 0.4em;
-    height: 0.4em;
+    width: 0.3em;
+    height: 0.3em;
     background-color: grey;
     margin: 0.2em;
     position: absolute;
@@ -93,23 +95,27 @@ footer div {
 }
 
 .left {
-    right: 1.2em;
+    right: 1.1em;
 }
 
 .central {
-    right: 0.6em;
+    right: 0.68em;
 }
 
 .right {
-    right: 0em;
+    right: 0.2em;
 }
 
 .top {
-    bottom: 0.64em;
+    bottom: 0.5em;
 }
 
 .middle {
-    bottom: 0.1em;
+    bottom: 0;
+}
+
+.bottom {
+    bottom: -0.46em;
 }
     
 #apps {
