@@ -51,20 +51,18 @@ header .sign-in {
 }
 
 #search-buttons {
-    width: 40%;
-    margin-left: auto;
     position: relative;
+    text-align: center;
 }
 
 #search-buttons input {
     border: none;
     color: rgb(117, 117, 117);
     margin: 1%;
-    min-width: 10em;
-    max-width: 12em;
     font-weight: bold;
     background: rgb(242, 242, 242);
     display: inline-block;
+    width: 12em;
 }
 
 
