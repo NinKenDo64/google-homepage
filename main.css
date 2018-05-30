@@ -63,6 +63,7 @@ header .sign-in {
     background: rgb(242, 242, 242);
     display: inline-block;
     width: 12em;
+    min-width: 12em;
 }
 
 
